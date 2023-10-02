@@ -1,6 +1,3 @@
-// bài tập 1: Cho một mảng số nguyên nums và một số nguyên target,
-// viết một hàm trả về kết quả là một mảng chỉ số của hai số trong
-// mảng nums sao cho tổng của chúng bằng target.
 
 export const twosum = (listNumber: number[], target: number): number[] => {
   for (let i = 0; i < listNumber.length; i++) {
